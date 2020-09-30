@@ -86,6 +86,6 @@ public class ForceBook {
                             .stream()
                             .sorted(String::compareTo)
                             .forEach(person -> System.out.printf("! %s%n", person));
-                });
+                };
     }
 }
